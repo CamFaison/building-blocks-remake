@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--Week 1 assignment, html tags
+Assignment: Launching your UAT Space Program HTML Document Tags
+Cameron Faison
+camfaison32@gmail.com-->
+<html>
+<head>
+    <script src="code.js"></script>
+    <title> 
+   Cameron Faisons UAT Space Page
+    </title>
+</head>
+
+<body>
+    <img src="UATspaceLogo-2.jpg">
+    <h1>
+        UAT SPACE PROGRAM
+    </h1>
+   
+    <script>
+        //test use of document.write
+        document.write("This is a test of the document write function");
+    </script>
+    <p>
+    Test of the paragraph function, It can be more than one sentence
+    </p>
+    <!--Countdown timer title-->
+    <h2> Countdown Timer</h2>
+    <!--Status of current countdown timer-->
+    <div id="countdownStatus">Timer Status</div><br>
+    <br>
+    <button onclick="start();">Start</button>
+    <button>Stop</button>
+
+
+</body>
+ 
+
+<html>
